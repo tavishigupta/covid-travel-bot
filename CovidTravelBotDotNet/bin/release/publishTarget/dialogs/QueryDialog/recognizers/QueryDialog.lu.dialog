@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_QueryDialog",
+  "recognizers": {
+    "en-us": "QueryDialog.en-us.lu",
+    "": "QueryDialog.en-us.lu"
+  }
+}

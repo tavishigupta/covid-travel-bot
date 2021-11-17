@@ -1,0 +1,26 @@
+{
+  "profileName": "CovidTravelBotDotNet",
+  "jobId": "79be8817-da39-421b-8b82-3aabdfc81269",
+  "projectId": "80468.36778932824",
+  "time": "2021-10-07T20:06:14.665Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Creating Resource Group ...",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 89d30ba9-8473-416a-b8e0-d91d1d7deb78",
+    "> Create App Registration Success! ID: 89d30ba9-8473-416a-b8e0-d91d1d7deb78",
+    "Deploying Azure Functions Resource ...",
+    "Deploying Azure Functions Success",
+    "Deploying Bot Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: a5122a2c-8788-418b-abba-96ebee75f937 ...",
+    "> AppInsights InstrumentationKey: e5d17247-9c70-422b-9a87-843f0e0e13e5 ...",
+    "> AppInsights ApiKey: oizg4z302bl7yokk7h4aj8nhdqiszkxd03nfhcjv ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "H61uVC",
+    "name": "QueryDialog",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "XgPHJC"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "trCLCX"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_trCLCX()}",
+          "property": "user.travelTo",
+          "value": "=@TravelTo",
+          "invalidPrompt": "${TextInput_InvalidPrompt_trCLCX()}",
+          "validations": [
+            "user.TravelTo != @geographyV2.location"
+          ],
+          "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_trCLCX()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "BgUf0q"
+          },
+          "activity": "${SendActivity_BgUf0q()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "pAhMoF"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_pAhMoF()}",
+          "property": "user.travelFrom",
+          "value": "=@TravelFrom",
+          "invalidPrompt": "${TextInput_InvalidPrompt_pAhMoF()}",
+          "validations": [
+            "user.TravelFrom != @geographyV2.location"
+          ],
+          "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_pAhMoF()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "1q2oLO"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_1q2oLO()}",
+          "property": "user.TravelPurpose",
+          "value": "=@TravelPurpose",
+          "invalidPrompt": "${TextInput_InvalidPrompt_1q2oLO()}",
+          "validations": [
+            "@TravelPurpose != null"
+          ],
+          "unrecognizedPrompt": "${TextInput_UnrecognizedPrompt_1q2oLO()}"
+        },
+        {
+          "$kind": "Microsoft.ConfirmInput",
+          "$designer": {
+            "id": "0xGIjk"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "prompt": "${ConfirmInput_Prompt_0xGIjk()}",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "dialog.queryIsCorrect"
+        },
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "uVpB6S"
+          },
+          "condition": "=dialog.queryIsCorrect",
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "p0sVNf"
+              },
+              "activity": "${SendActivity_p0sVNf()}"
+            },
+            {
+              "$kind": "Microsoft.RepeatDialog",
+              "$designer": {
+                "id": "0fEHGu"
+              },
+              "activityProcessed": true
+            }
+          ],
+          "actions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "6GfxJG"
+              },
+              "activity": "${SendActivity_6GfxJG()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "QueryDialog.lg",
+  "recognizer": "QueryDialog.lu.qna",
+  "id": "QueryDialog"
+}

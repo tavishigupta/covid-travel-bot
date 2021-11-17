@@ -1,0 +1,157 @@
+# TextInput_Response_trCLCX
+- arrive in {@TravelTo=lebanon}
+- {@TravelPurpose=business}
+- can i go to {@TravelTo=india} from the {@TravelFrom=us} for {@TravelPurpose=work}
+- can i go to {@TravelTo=usa} from {@TravelFrom=india} for {@TravelPurpose=tourism}?
+- depart {@TravelFrom=peru}
+- departing from {@TravelFrom=chile}
+- departing from {@TravelFrom=peru}
+- departing {@TravelFrom=lebanon}
+- go to {@TravelTo=france}
+- going for {@TravelPurpose=fun}
+- going for {@TravelPurpose=tourism}
+- going for {@TravelPurpose=work}
+- going from {@TravelFrom=new york}
+- going to have {@TravelPurpose=fun}
+- i am going to {@TravelTo=chile}
+- i live in {@TravelFrom=california}
+- i want to go to {@TravelTo=europe}
+- i want to go to {@TravelTo=luxembourg} for {@TravelPurpose=work} from {@TravelFrom=turkey}. can i do that?
+- i want to go to the {@TravelTo=uk}
+- i want too go to the {@TravelTo=usa}
+- leaving from {@TravelFrom=turkey}
+- leaving {@TravelFrom=lisbon}
+- travel to {@TravelTo=prague}
+- traveling from {@TravelTo=china}
+- {@TravelPurpose=vacation}
+- we are going to {@TravelTo=china}
+- we want to go to {@TravelTo=belize}
+- i want to go from {@TravelFrom=turkey} to {@TravelTo=belgium} for {@TravelPurpose=fun}
+- from {@TravelFrom=south of france}
+
+> # Entity definitions
+@ ml TravelFrom usesFeature travelFromPhrases
+@ ml TravelTo usesFeature travelToPhrases
+@ ml TravelPurpose usesFeature travelPurposePhrases
+
+> # PREBUILT Entity definitions
+@ prebuilt geographyV2
+@ prebuilt number
+@ prebuilt ordinal
+
+> # Phrase list definitions
+@ phraselist travelFromPhrases(interchangeable) disabledForAllModels = 
+    - depart from,departing,leaving from,leaving,departing from,depart,go from,leave from,leave,from
+
+@ phraselist travelToPhrases(interchangeable) disabledForAllModels = 
+	- arrive in,arriving,going to,leaving to,arriving in,go to,leave for,to
+
+@ phraselist travelPurposePhrases(interchangeable) disabledForAllModels = 
+    - experience, enjoy, learn
+
+
+# TextInput_Response_pAhMoF
+- arrive in {@TravelTo=lebanon}
+- {@TravelPurpose=business}
+- can i go to {@TravelTo=india} from the {@TravelFrom=us} for {@TravelPurpose=work}
+- can i go to {@TravelTo=usa} from {@TravelFrom=india} for {@TravelPurpose=tourism}?
+- depart {@TravelFrom=peru}
+- departing from {@TravelFrom=chile}
+- departing from {@TravelFrom=peru}
+- departing {@TravelFrom=lebanon}
+- go to {@TravelTo=france}
+- going for {@TravelPurpose=fun}
+- going for {@TravelPurpose=tourism}
+- going for {@TravelPurpose=work}
+- going from {@TravelFrom=new york}
+- going to have {@TravelPurpose=fun}
+- i am going to {@TravelTo=chile}
+- i live in {@TravelFrom=california}
+- i want to go to {@TravelTo=europe}
+- i want to go to {@TravelTo=luxembourg} for {@TravelPurpose=work} from {@TravelFrom=turkey}. can i do that?
+- i want to go to the {@TravelTo=uk}
+- i want too go to the {@TravelTo=usa}
+- leaving from {@TravelFrom=turkey}
+- leaving {@TravelFrom=lisbon}
+- travel to {@TravelTo=prague}
+- traveling from china
+- {@TravelPurpose=vacation}
+- we are going to {@TravelTo=china}
+- we want to go to {@TravelTo=belize}
+- i want to go from {@TravelFrom=turkey} to {@TravelTo=belgium} for {@TravelPurpose=fun}
+- from {@TravelFrom=south of france}
+- traveling from {@TravelFrom=perth}
+
+> # Entity definitions
+@ ml TravelFrom usesFeature travelFromPhrases
+@ ml TravelTo usesFeature travelToPhrases
+@ ml TravelPurpose usesFeature travelPurposePhrases
+
+> # PREBUILT Entity definitions
+@ prebuilt geographyV2
+@ prebuilt number
+@ prebuilt ordinal
+
+> # Phrase list definitions
+@ phraselist travelFromPhrases(interchangeable) disabledForAllModels = 
+    - depart from,departing,leaving from,leaving,departing from,depart,go from,leave from,leave,from
+
+@ phraselist travelToPhrases(interchangeable) disabledForAllModels = 
+	- arrive in,arriving,going to,leaving to,arriving in,go to,leave for,to
+
+@ phraselist travelPurposePhrases(interchangeable) disabledForAllModels = 
+    - experience, enjoy, learn
+
+# TextInput_Response_1q2oLO
+- arrive in {@TravelTo=lebanon}
+- {@TravelPurpose=business}
+- can i go to {@TravelTo=india} from the {@TravelFrom=us} for {@TravelPurpose=work}
+- can i go to {@TravelTo=usa} from {@TravelFrom=india} for {@TravelPurpose=tourism}?
+- depart {@TravelFrom=peru}
+- departing from {@TravelFrom=chile}
+- departing from {@TravelFrom=peru}
+- departing {@TravelFrom=lebanon}
+- go to {@TravelTo=france}
+- going for {@TravelPurpose=fun}
+- going for {@TravelPurpose=tourism}
+- going for {@TravelPurpose=work}
+- going from {@TravelFrom=new york}
+- going to have {@TravelPurpose=fun}
+- i am going to {@TravelTo=chile}
+- i live in {@TravelFrom=california}
+- i want to go to {@TravelTo=europe}
+- i want to go to {@TravelTo=luxembourg} for {@TravelPurpose=work} from {@TravelFrom=turkey}. can i do that?
+- i want to go to the {@TravelTo=uk}
+- i want too go to the {@TravelTo=usa}
+- leaving from {@TravelFrom=turkey}
+- leaving {@TravelFrom=lisbon}
+- travel to {@TravelTo=prague}
+- traveling from china
+- {@TravelPurpose=vacation}
+- {@TravelPurpose=fun}
+- {@TravelPurpose=tourism}
+- {@TravelPurpose=work}
+- we are going to {@TravelTo=china}
+- we want to go to {@TravelTo=belize}
+- i want to go from {@TravelFrom=turkey} to {@TravelTo=belgium} for {@TravelPurpose=fun}
+- from {@TravelFrom=south of france}
+
+> # Entity definitions
+@ ml TravelFrom usesFeature travelFromPhrases
+@ ml TravelTo usesFeature travelToPhrases
+@ ml TravelPurpose usesFeature travelPurposePhrases
+
+> # PREBUILT Entity definitions
+@ prebuilt geographyV2
+@ prebuilt number
+@ prebuilt ordinal
+
+> # Phrase list definitions
+@ phraselist travelFromPhrases(interchangeable) disabledForAllModels = 
+    - depart from,departing,leaving from,leaving,departing from,depart,go from,leave from,leave,from
+
+@ phraselist travelToPhrases(interchangeable) disabledForAllModels = 
+	- arrive in,arriving,going to,leaving to,arriving in,go to,leave for,to
+
+@ phraselist travelPurposePhrases(interchangeable) disabledForAllModels = 
+    - experience, enjoy, learn

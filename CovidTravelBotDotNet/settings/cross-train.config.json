@@ -1,0 +1,17 @@
+{
+  "CovidTravelBotDotNet.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "": [
+        "WelcomeDialog.en-us",
+        "QueryDialog.en-us"
+      ],
+      "Cancel": [
+        "CancelDialog.en-us"
+      ],
+      "Help": [
+        "HelpDialog.en-us"
+      ]
+    }
+  }
+}

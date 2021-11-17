@@ -1,0 +1,12 @@
+[import](common.lg)
+
+# SendActivity_HelpOverview()
+[Activity
+    Text = ${SendActivity_HelpOverview_text()}
+]
+
+# SendActivity_HelpOverview_text()
+- I'm here to help with simple COVID travel queries like: Can I travel from United States to China for work?
+- I'm here to help with simple COVID travel queries like: Can I travel from India to United States for tourism?
+
+> Imported: 4e98c37ffed5c112128463cd963965a6

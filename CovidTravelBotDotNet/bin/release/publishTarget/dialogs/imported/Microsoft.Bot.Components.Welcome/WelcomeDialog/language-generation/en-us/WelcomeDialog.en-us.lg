@@ -1,0 +1,22 @@
+[import](common.lg)
+
+# SendActivity_WelcomeReturningUser()
+[Activity
+    Text = ${SendActivity_WelcomeReturningUser_text()}
+]
+
+# SendActivity_WelcomeReturningUser_text()
+- 🖐️ Welcome back! Welcome to the COVID Travel Bot.
+- 🖐️ Hello again! Welcome to the COVID Travel Bot.
+- 🖐️ Good to see you again. Welcome to the COVID Travel Bot.
+# SendActivity_WelcomeNewUser()
+[Activity
+    Text = ${SendActivity_WelcomeNewUser_text()}
+]
+
+# SendActivity_WelcomeNewUser_text()
+- 🖐️ Hey, there! Welcome to the COVID Travel Bot.
+- 🖐️ Hi! Welcome to the COVID Travel Bot.
+- 🖐️ Hello! Welcome to the COVID Travel Bot.
+
+> Imported: bc432e075beff6421fe460582547d019

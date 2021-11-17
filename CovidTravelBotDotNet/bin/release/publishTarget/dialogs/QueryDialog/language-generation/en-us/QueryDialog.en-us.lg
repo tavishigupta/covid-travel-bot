@@ -1,0 +1,85 @@
+[import](common.lg)
+
+# TextInput_Prompt_trCLCX()
+[Activity
+    Text = ${TextInput_Prompt_trCLCX_text()}
+]
+
+# TextInput_Prompt_trCLCX_text()
+- Where are you thinking of going?
+- Where are you thinking of going next?
+- What country are you going to?
+# SendActivity_BgUf0q()
+[Activity
+    Text = ${SendActivity_BgUf0q_text()}
+]
+
+# TextInput_InvalidPrompt_trCLCX()
+[Activity
+    Text = Sorry, I didn't get that. Can you repeat? Where would you like to go?
+]
+
+# TextInput_Prompt_pAhMoF()
+[Activity
+    Text = ${TextInput_Prompt_pAhMoF_text()}
+]
+
+# TextInput_Prompt_pAhMoF_text()
+- And where are you traveling from?
+- Next, what country are you traveling from?
+# TextInput_InvalidPrompt_pAhMoF()
+[Activity
+    Text = ${TextInput_InvalidPrompt_pAhMoF_text()}
+]
+
+# TextInput_InvalidPrompt_pAhMoF_text()
+- Sorry, I didn't get that. Where are you traveling from?
+- Sorry, what country again?
+# TextInput_Prompt_1q2oLO()
+[Activity
+    Text = Great! Last question - what are you traveling for? (Eg: tourism, work, just for fun)
+]
+
+# TextInput_InvalidPrompt_1q2oLO()
+[Activity
+    Text = Sorry, could you repeat that? Why are you traveling again?
+]
+
+# SendActivity_BgUf0q_text()
+- Nice! I've heard ${user.TravelTo} is really fun!
+- Wow! I've heard ${user.TravelTo} is really beautiful!
+- Amazing! ${user.TravelTo} sounds exciting!
+# ConfirmInput_Prompt_osHA4U()
+[Activity
+    Text = Perfect! So you want to travel to ${user.TravelTo} from ${user.TravelFrom} for ${user.TravelPurpose}. Is that right?
+]
+
+# ConfirmInput_Prompt_0xGIjk()
+[Activity
+    Text = Perfect! So you want to travel to ${user.TravelTo} from ${user.TravelFrom} for ${user.TravelPurpose}. Is that right?
+]
+
+# SendActivity_6GfxJG()
+[Activity
+    Text = Great! Give me a second while I find the information for you.
+]
+
+# SendActivity_p0sVNf()
+[Activity
+    Text = Whoops! My bad. Let's try again.
+]
+
+# TextInput_UnrecognizedPrompt_trCLCX()
+[Activity
+    Text = Try to refresh this page.
+]
+
+# TextInput_UnrecognizedPrompt_pAhMoF()
+[Activity
+    Text = Try to refresh this page.
+]
+
+# TextInput_UnrecognizedPrompt_1q2oLO()
+[Activity
+    Text = Try to refresh this page.
+]

@@ -1,0 +1,8 @@
+{
+  "$kind": "Microsoft.MultiLanguageRecognizer",
+  "id": "LUIS_CovidTravelBotDotNet",
+  "recognizers": {
+    "en-us": "CovidTravelBotDotNet.en-us.lu",
+    "": "CovidTravelBotDotNet.en-us.lu"
+  }
+}

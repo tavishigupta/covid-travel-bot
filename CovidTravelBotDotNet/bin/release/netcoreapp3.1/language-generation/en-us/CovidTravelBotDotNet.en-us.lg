@@ -1,0 +1,20 @@
+[import](common.lg)
+
+# SendActivity_ErrorOccured()
+[Activity
+    Text = ${SendActivity_ErrorOccured_text()}
+]
+
+# SendActivity_ErrorOccured_text()
+- Oops, looks like I'm stuck. Can you try to ask me in a different way? Maybe try asking like this: Can I travel from United States to China?
+- Looks like I'm all mixed up. Let's try asking again, but maybe rephrase your request? Example: Can I travel from United States to China for work?
+- Sorry, it looks like something went wrong. Can you please try again? Example: Can I travel from United States to China for work?
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that
+- I'm not sure I understand. Can you please try again?
+- I didn't get that. Would you mind rephrasing and try it again. Example: Can I travel from United States to China for work?
