@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj": {}
+    "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj": {}
   },
   "projects": {
-    "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj": {
+    "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
+        "projectUniqueName": "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
         "projectName": "CovidTravelBotDotNet",
-        "projectPath": "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
+        "projectPath": "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
         "packagesPath": "/Users/Administrator/.nuget/packages/",
-        "outputPath": "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/obj/",
+        "outputPath": "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/NuGet.Config",
+          "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/NuGet.Config",
           "/Users/Administrator/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -97,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0PdOSO6X3iMSS/252y4hsAu+70iVjYLiQpiGM2ZMdz2ntHfquKRLlxymXM1kH0phiOLP1r8F0MbdIU0vykdRLg==",
+  "dgSpecHash": "G2nMsKz5vqX/nU3uPbXEFaL3CCMKc7mN6bj0BSmHf7t5iRJEnTI/1cRJ9lbNjWp3zSHiVlRY5XO70jrWdzorWg==",
   "success": true,
-  "projectFilePath": "/Users/Administrator/Desktop/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
+  "projectFilePath": "/Users/Administrator/Desktop/covid-travel-bot/CovidTravelBotDotNet/CovidTravelBotDotNet.csproj",
   "expectedPackageFiles": [
     "/Users/Administrator/.nuget/packages/adaptiveexpressions/4.14.1/adaptiveexpressions.4.14.1.nupkg.sha512",
     "/Users/Administrator/.nuget/packages/antlr4.runtime.standard/4.8.0/antlr4.runtime.standard.4.8.0.nupkg.sha512",

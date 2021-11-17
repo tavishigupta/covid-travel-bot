@@ -1,8 +1,8 @@
-# Welcome to your new bot
+# COVID Bot Code
 
 This bot project was created using the Core Bot with Azure Language Understanding template, and contains support for a base set of conversational flows.
 
-## Next steps
+## Original Documentation
 
 ### Start building your bot
 
